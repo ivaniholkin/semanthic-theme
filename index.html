@@ -10,29 +10,63 @@
     <header>
         <h1>HTML5 Семантичні елементи</h1>
         <nav>
-            <a href="">&lt; section &gt;</a> 
-            <a href="">&lt; article &gt;</a>
-            <a href="">&lt; header &gt;</a>
-            <a href="">&lt; footer &gt;</a>
+            <a href="#section">&lt; section &gt;</a> 
+            <a href="#article">&lt; article &gt;</a>
+            <a href="#header">&lt; header &gt;</a>
+            <a href="#footer">&lt; footer &gt;</a>
             <a href=""></a>
             <a href=""></a>
         </nav>
     </header>
     <main>
-        <section>
+        <section >
             <article>
                 <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
                 <p>Приклади не <b>семантичних</b>  елементів: &lt;div&gt; і &lt;span&gt; - нічого не говорить про його вміст.</p>
                 <p>Приклади семантичних елементів: &lt;form&gt;, &lt;table&gt; і &lt;article&gt;- чітко визначає його зміст.</p>  
             </article>
         </section>
-        <section>
+        <section id="section">
             <h2>HTML5 &lt;section&gt; елемент</h2>
             <article>
                 <p>Елемент &lt;sectiong&gt; визначає розділ в документі.</p>
                 <p>Згідно з документацією в3к'с HTML5: "розділ представляє собою тематичну угруповання контенту, зазвичай з заголовком".</p>
                 <p>Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації.</p>
                 <img src="image/sectioneexample.png" alt="example section code img">
+            </article>
+        </section>
+        <section id="article">
+            <h2>HTML5 &lt;article&gt; елемент</h2>
+            <article>
+                <p>Елемент &lt;article&gt; визначає незалежний, автономний вміст.</p>
+                <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість читати його незалежно від іншої частини веб-сайту.</p>
+                <p>Приклади того, де можна використовувати елемент &lt;article&gt;:</p>
+                <ul>
+                    <li>Повідомлення на форумі</li>
+                    <li>блозі</li>
+                    <li>Газетна стаття</li>
+                </ul>
+                <img src="image/articleexample.png" alt="example article code img" width="400px">
+            </article>
+        </section>
+        <section id="header">
+            <h2>HTML5 &lt;header&gt; елемент</h2>
+            <article>
+                <p>Елемент &lt;header&gt; задає заголовок для документа або розділу.</p>
+                <p>В одному документі може буті кілька елементів &lt;header&gt;.</p>
+                <p>Елемент &lt;header&gt; повинен використовуватися в якості контейнера для вступного змісту.</p>
+                <p>У наступному прикладі визначається заголовок для статті:</p>
+                <img src="image/headerexample.png" alt="example header code img" width="400px">
+            </article>
+        </section>
+        <section id="footer">
+            <h2>HTML5 &lt;footer&gt; елемент</h2>
+            <article>
+               <p>Елемент &lt;footer&gt; вказує нижній колонтитул для документа або розділу.</p>
+               <p>Нижній колонтитул зазвичай містить автора документа, інформацію про
+                авторське право, посилання на умови використання, контактні дані і т.д.</p>
+               <p>В одному документі може бути кілька елементів &lt;footer&gt;.</p> 
+               <img src="image/footerexample.png" alt="example footer code img" width="400px">
             </article>
         </section>
 
