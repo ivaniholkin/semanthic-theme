@@ -4,26 +4,36 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Semantics</title>
+        <link rel="icon" type="image/png" href="image/html-5.png">
     </head>
-<body>
+<body style="background-color: rgb(198, 194, 194);">
     <header>
         <h1>HTML5 Семантичні елементи</h1>
-        <nav>
+        <nav id="nav">
             <a href="#section">&lt; section &gt;</a> 
             <a href="#article">&lt; article &gt;</a>
             <a href="#header">&lt; header &gt;</a>
             <a href="#footer">&lt; footer &gt;</a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="#extra">extra content</a>
         </nav>
     </header>
     <main>
         <section >
+            <h2>Семантичні елементи</h2>
             <article>
                 <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
                 <p>Приклади не <b>семантичних</b>  елементів: &lt;div&gt; і &lt;span&gt; - нічого не говорить про його вміст.</p>
                 <p>Приклади семантичних елементів: &lt;form&gt;, &lt;table&gt; і &lt;article&gt;- чітко визначає його зміст.</p>  
+            </article>
+        </section>
+        <section>
+            <h2>Підтримка браузерів</h2>
+            <article>
+                <a href="https://www.google.ru/intl/ru/chrome/?brand=YTUH&gclid=Cj0KCQiA1NebBhDDARIsAANiDD09KuyTho3zNcfrtSp8RDeWE93Jn5Q0bud9WkeNgMA9xG1URCzmuuYaAlt8EALw_wcB&gclsrc=aw.ds"><img src="image/Google_Chrome_icon_(2011).png" alt="chromeIcon" width="30px"></a>
+                <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+                <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p>
+                <p>Прочитайте про це в <a href="https://accounts.google.com/ServiceLogin/webreauth?service=blogger&passive=1209600&continue=https%3A%2F%2Fwww.blogger.com%2Fblog%2Fpage%2Fedit%2F2590532390801722394%2F850003172824707311&followup=https%3A%2F%2Fwww.blogger.com%2Fblog%2Fpage%2Fedit%2F2590532390801722394%2F850003172824707311&ifkv=ARgdvAsWe_qX0wEdakAMw8CsoLl1WJvOQD7e0qMsJNL6Zv25TaVnM0_qNm29dM9VUXzIZUIIs8_cfw&flowName=GlifWebSignIn&flowEntry=ServiceLogin">підтримці браузера HTML5</a> .</p>
             </article>
         </section>
         <section id="section">
@@ -71,5 +81,11 @@
         </section>
 
     </main>
+    <footer id="extra">
+        <iframe src="https://ivaniholkin.github.io/cvigolkin/" frameborder="0" width="800" ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <a href="#nav" style="border: 5px solid rgb(143, 123, 123);">повернутися до гори</a>
+    </footer>
 </body>
 </html>
